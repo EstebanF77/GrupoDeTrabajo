@@ -1,0 +1,24 @@
+section{
+    width: 60vw;
+    height: 60vh;
+    border: 1px solid #000000;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Barprincipal {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 145, 0);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  
+}
+
