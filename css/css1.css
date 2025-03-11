@@ -3,10 +3,11 @@ body {
     padding-top: 60px; 
     background-image: url('../Recursos/360_F_784585381_ak0FHBBtE6WgiztVVbZZmWiX5aMP5HGI.jpg');
     background-size: 100%;
+
 }
 
 header {
-    background-image: url('../Recursos/video-game-controller-gamepad-flat-600nw-411415492.png');
+    background-image: url('../Recursos/amazing_games.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
@@ -25,6 +26,7 @@ header {
 img {
     height: 50px;
     margin-right: 20px; 
+   
 }
 
 nav {
@@ -56,12 +58,40 @@ nav a:hover {
     background: rgba(255, 253, 253, 0.507); 
     color: white; 
     padding: 50px; 
-    height: 80%;
+    height: 100%;
     border-radius: 10px;
     text-align: center;
     width: 60%; 
 }
 
-.h1{
-    position:;
+h1 {
+    position: relative; /* Asegura que z-index funcione */
+    z-index: 2; /* Hace que el texto esté por encima del fondo blanco */
+    color: rgb(0, 0, 0); /* Asegura visibilidad */
+    text-align: center;
+    font-size: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 4px 4px 10px rgb(204, 0, 255);
 }
+
+
+
+.icon {
+    width: 20px; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-left: 5px; 
+}
+
+footer {
+    background-color: #111111ce;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
