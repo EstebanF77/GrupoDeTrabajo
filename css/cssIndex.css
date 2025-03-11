@@ -1,5 +1,4 @@
 body {
-    margin: 0; 
     padding-top: 60px; 
     background-image: url('../Recursos/360_F_784585381_ak0FHBBtE6WgiztVVbZZmWiX5aMP5HGI.jpg');
     background-size: 100%;
@@ -64,7 +63,6 @@ nav a:hover {
     width: 60%; 
 }
 
-
 h1 {
     position: relative; /* Asegura que z-index funcione */
     z-index: 2; /* Hace que el texto esté por encima del fondo blanco */
@@ -89,15 +87,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
-
-
-
-
-.h1{
-    position: absolute;
-}
-
