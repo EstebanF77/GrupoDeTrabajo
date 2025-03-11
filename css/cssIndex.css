@@ -64,6 +64,10 @@ nav a:hover {
     width: 60%; 
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 39d9e81687e5e1f892c589c1178883ea41f9b56c
 h1 {
     position: relative; /* Asegura que z-index funcione */
     z-index: 2; /* Hace que el texto esté por encima del fondo blanco */
@@ -95,6 +99,14 @@ footer {
 
 
 
+<<<<<<< HEAD
 .h1{
     position: absolute;
 }
+=======
+
+.h1{
+    position: absolute;
+}
+
+>>>>>>> 39d9e81687e5e1f892c589c1178883ea41f9b56c
