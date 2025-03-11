@@ -64,7 +64,7 @@ nav a:hover {
     width: 60%; 
 }
 
-<<<<<<< HEAD:css/css1.css
+
 h1 {
     position: relative; /* Asegura que z-index funcione */
     z-index: 2; /* Hace que el texto esté por encima del fondo blanco */
@@ -96,8 +96,8 @@ footer {
 
 
 
-=======
+
 .h1{
     position: absolute;
 }
->>>>>>> 3bb4092c58e2e8b41a027d50cb413a3fb885d721:css/cssIndex.css
+
