@@ -1,5 +1,4 @@
 body {
-    margin: 0; 
     padding-top: 60px; 
     background-image: url('../Recursos/360_F_784585381_ak0FHBBtE6WgiztVVbZZmWiX5aMP5HGI.jpg');
     background-size: 100%;
@@ -64,10 +63,6 @@ nav a:hover {
     width: 60%; 
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 39d9e81687e5e1f892c589c1178883ea41f9b56c
 h1 {
     position: relative; /* Asegura que z-index funcione */
     z-index: 2; /* Hace que el texto esté por encima del fondo blanco */
@@ -92,21 +87,7 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
-
-
-
-<<<<<<< HEAD
-.h1{
-    position: absolute;
-}
-=======
-
-.h1{
-    position: absolute;
-}
-
->>>>>>> 39d9e81687e5e1f892c589c1178883ea41f9b56c
