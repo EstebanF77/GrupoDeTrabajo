@@ -82,12 +82,13 @@ h1 {
     margin-left: 5px; 
 }
 
-footer {
+.footer-container {
     background-color: #111111ce;
     color: white;
     text-align: center;
-    padding: 15px 0;
-    position: absolute;
-    bottom: 0;
+    position: absolute; /* Fijado en la parte inferior */
+    bottom: -100px;
+    left: 0;
     width: 100%;
+    padding: 15px 0;
 }
