@@ -80,6 +80,7 @@ nav a:hover {
     background-color: steelblue;
     transition-duration: 3s, 5s;
     animation-duration: 8s;
+    box-shadow: 4px 0px 15px 9px rgba(0, 0, 0, 0.5);
     
     
 }
@@ -99,4 +100,20 @@ nav a:hover {
     justify-content: center;
     
     
+}
+
+.entrarAlJuego{
+    width: 250px;
+    height: 70px;
+    border-radius: 8%;
+    background-color: rgb(186, 22, 192);
+    border-radius: 10%;
+    background-color: rgb(80, 8, 161);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(197, 4, 4);
+    text-align: center;
+    margin-bottom: 10%;
+    
+
 }
