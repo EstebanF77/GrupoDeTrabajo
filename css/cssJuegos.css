@@ -1,25 +1,25 @@
 body{
-    margin-top: 40px;
-
+    margin-top: 60px;
+    background-color: rgb(2, 2, 54);
 }
 header{
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 60px;
     top: 0px;
     left: 0px;
     background-color: rgb(104, 5, 196);
     z-index: 1000;
 }
 
-nav{
+.cabezera{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 5px;
+    padding: 15px;
 }
 
-nav a{
+.cabezera a{
     height: 100%;
     width: 20%;
     text-align: center;
@@ -32,4 +32,42 @@ nav a{
 nav a:hover{
     background-color: rgb(103, 3, 157);
     font-weight: normal;
+    box-shadow: 5px 5px 10px rgb(76, 0, 118);
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 95px;
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:5px 5px 10px rgb(76, 0, 118) ;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center; 
+    gap: 200px; 
+
+}
+
+.contHistoria{
+    top: 0;
+    width: 40%;
+    border-color: white;
+    font-size: 30px;
+    color: white;
+}
+.imagen{
+    margin-top: 100px; 
+}
+
+.subtitulo{
+    color: white;
+    text-align: center;
 }
