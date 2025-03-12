@@ -2,6 +2,7 @@ body{
     margin-top: 60px;
     background-color: rgb(2, 2, 54);
 }
+
 header{
     position: fixed;
     width: 100%;
@@ -29,11 +30,13 @@ header{
     font-size: 30px;
     transition-duration: 1s, 0.5s;
 }
+
 nav a:hover{
     background-color: rgb(103, 3, 157);
     font-weight: normal;
     box-shadow: 5px 5px 10px rgb(76, 0, 118);
 }
+
 .logo{
     position: absolute;
     top: 0px;
@@ -59,12 +62,14 @@ nav a:hover{
 .contHistoria{
     top: 0;
     width: 40%;
-    border-color: white;
     font-size: 30px;
     color: white;
+    
 }
+
 .imagen{
     margin-top: 100px; 
+    
 }
 
 .subtitulo{
