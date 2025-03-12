@@ -109,7 +109,6 @@ nav a:hover {
     
 }
 
-
 .rectangle:hover {
     background-color: rgb(103, 3, 157);
     transition: background-color 0.5s;
@@ -119,7 +118,7 @@ nav a:hover {
 }
 
 .rectangle img {
-    width: 100px;
+    width: 220px;
     height: auto;
     max-height: 0; 
     transition: max-height 0.5s ease-in-out, transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
@@ -135,6 +134,21 @@ nav a:hover {
     opacity: 1;
     border-radius: 25px;
 }
+.sinopsis{
+    transition: max-height 0.5s ease-in-out, transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    margin-top: -10px; 
+    font-size: 23px;
+    
+}
+.rectangle:hover .sinopsis {
+    max-height: 100px; 
+    transform: translateY(0); 
+    opacity: 1;
+    border-radius: 25px;
+}
 
 
 
@@ -146,12 +160,5 @@ nav a:hover {
     height:120px;
     justify-content: center;
     
-    
-}
-
-
-
-.juego{
-    flex-direction:flex-end;
     
 }
