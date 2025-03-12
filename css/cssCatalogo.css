@@ -78,7 +78,16 @@ nav a:hover {
     height: 350px;
     border-radius: 8%;
     background-color: steelblue;
+    transition-duration: 3s, 5s;
+    animation-duration: 8s;
     
+    
+}
+.rectangle:hover {
+    background-color: rgb(103, 3, 157);
+    transition: background-color 0.5s;
+    height: 100px;
+    bottom: 0px;
 }
 
 .contenedor {
