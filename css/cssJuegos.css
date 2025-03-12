@@ -59,20 +59,27 @@ nav a:hover{
 
 }
 
-.contHistoria{
+.contenedorTexto{
+
+    background-color: rgb(49, 16, 81);
     top: 0;
     width: 40%;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
-    
+    padding: 20px;    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .imagen{
-    margin-top: 100px; 
-    
+    margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .subtitulo{
     color: white;
     text-align: center;
+    font-size: 40px ;
+
 }
